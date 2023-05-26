@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap');
+
+body {
+  font-family: 'Montserrat', Arial, sans-serif;
+  margin: 20px;
+  color: #000000; /* Text color - Black */
+  background-color: #7c94a8; /* Background color - Light Blue */
+}
+
+h1 {
+  text-align: center;
+  color: #98002e; /* Heading color - Maroon */
+  font-family: 'Oswald', Arial, sans-serif;
+}
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  background-color: #ffffff; /* Form background color - White */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  color: #555555; /* Label color - Dark Gray */
+}
+
+input {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+  border: 1px solid #cccccc; /* Input border color - Light Gray */
+}
+
+button {
+  margin-top: 10px;
+  padding: 5px 10px;
+  background-color: #98002e; /* Button background color - Maroon */
+  color: #ffffff; /* Button text color - White */
+  font-family: 'Montserrat', Arial, sans-serif;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #5c001a; /* Button background color on hover */
+}
+
+#currentGradeResult,
+#desiredGradeResult {
+  margin-top: 20px;
+  background-color: #ffffff; /* Result background color - White */
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+#currentGradeResult h2,
+#desiredGradeResult h2 {
+  margin-bottom: 10px;
+  color: #98002e; /* Result heading color - Maroon */
+}
+
+#currentGrade,
+#gradeNeeded {
+  font-weight: bold;
+}
+
+/* Boston College Colors */
+button {
+  background-color: #98002e; /* Button background color - Maroon */
+}
+
+button:hover {
+  background-color: #5c001a; /* Button background color on hover */
+}
+
+input[type="number"],
+input[type="text"] {
+  border: 1px solid #98002e; /* Border color - Maroon */
+}
+
+input[type="number"]:focus,
+input[type="text"]:focus {
+  border: 1px solid #5c001a; /* Border color on focus */
+}
